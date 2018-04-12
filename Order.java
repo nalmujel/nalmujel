@@ -95,33 +95,4 @@ private Departments item ;
         System.out.print("*******Order*******\n  " + "Request Number :" + RequestNumber + ", Recuest Date :" + RequestDate + ", Delivery Date :" + delDate + ", Custumer Information :" + info);
     }
     
-    public void PaymentMethod(){
-           int choice=0;
-            int ccv=0;
-            int visa=0;
-            String NameV="";
-            int time=0;
-            System.out.println("Please Choose The Payment Method That you'd Like for your Order ");
-            System.out.println("1: Visa");
-            System.out.println("2:Cash Delievry");
-            
-            choice=in.nextInt();
-            switch(choice){
-                case 1:
-                    System.out.println("Enter the Visa Number");
-                    visa=in.nextInt();
-                    System.out.println("Enter CCV Number");
-            ccv=in.nextInt();
-                    System.out.println("Enter The Name of The Visa");
-                    NameV=in.next();
-            break;
-                case 2: 
-                    //هنا اصير اسوي مناداة ل ميثود اسويها تبع الادريس  في هذي الكيس
-                    break;
-                default:
-                    System.out.println("Sorry but The Payment Method That You have choosed Isn't Available in our Shop");
-            }
     
-    }
-    
-}
