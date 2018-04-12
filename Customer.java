@@ -1,6 +1,10 @@
 
 package flowerproject;
 
+/**
+ *
+ * @author NawalAlmuajel
+ */
 import  java.io.*;
 import java.util.Scanner;
 public class Customer {
